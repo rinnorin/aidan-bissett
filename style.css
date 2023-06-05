@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+
+@font-face {
+    font-family: "Rubik Vinyl";
+    src: url("font/RubikVinyl-Regular.ttf");
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #ae4dc4;
+}
+
+button {
+    color: rgba(243, 167, 216, 1);
+    background-color: rgba(131,39,100,255);
+    box-shadow: inset;
+}
+header, body, footer {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-name {
+    padding-left: 50px;
+}
+
+.nav ul{
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    
+}
+
+.nav a {
+    padding: .5em;
+    text-decoration: none;
+    font-family: Rubik Vinyl;
+    font-weight: bold;
+}
+.nav a:hover {
+    background-color: rgba(249, 48, 184, 0.3);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(174, 77, 196, 0.5);
+}
+.main-nav li {
+    padding: 0 4%;
+    padding-top: 1%;
+}
+
+.main-header {
+    background-image: url("images/background/background3.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+    background-size: contain;
+    padding-bottom: 30px;
+}
+
+.name {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 4em;
+    font-family: "Rubik Vinyl";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.name-larger {
+    text-align: center;
+    font-size: 8em;
+}
+
+.content-section * {
+    margin: 1em;
+    color: #9848AA;
+    font-size: 1.1em;
+}
+
+.content-section-about * {
+    margin: 1em;
+    color: #9848AA;
+    font-size: 1.7em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.container-store {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.container-bottom {
+    padding-bottom: 50px;
+}
+
+.section-header {
+    text-align: center;
+    font-family: Rubik Vinyl;
+    font-size: 400%;
+    margin-bottom: 0;
+}
+
+.content-img {
+    float: left;
+    height: 400px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 1px solid;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+}
+
+.footer-content ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.main-footer li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+.main-footer {
+    background-color: #ae4dc4;
+    padding: 0.25em 0;
+}
+
+
+.main-footer * {
+    color: #500b45;
+}
+
+.header btn {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+    
+}
+
+
+.btn-header {
+    margin: 0.5em 30% 0.5em 30%;
+    border: 2px solid #ae4dc4;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-weight: lighter;
+    font-size: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: #500b45;
+}
+
+.btn-play {
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    font-size: 3.5em;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row {
+    border-bottom: 1px solid #7a0495;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    font-size: larger;
+    display:block
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.container-tours {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.tour-item{
+    display: inline-block;
+    padding-right: 0.5em;
+    
+}
+
+.date{
+    font-weight: bold;
+    width: 14%;
+}
+
+.city{
+    width: 14%;
+}
+
+.address {
+    width: 29%;
+}
+
+.btn-tour {
+    
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.2em;
+    cursor: pointer;
+    color:#dd7bf3;
+    width: 19%;
+    border-radius: 0.3em;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.btn-tour:hover {
+    background-color: #500b45;
+}
+
+.merch-type {
+    text-align: center;
+    font-size: 250%
+}
+
+.store-item {
+    margin: 0px;
+    max-width: 50%;
+}
+
+.store-item-title {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.store-item-img {
+    height: 250px;
+    width: 250px;
+    margin: 0;
+}
+
+.store-item-details {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    max-width: 250px;
+}
+
+
+.store-item-price {
+    flex-grow: 1;
+    max-width: 150px;
+    margin: 0;
+}
+
+.store-item-btn {
+    margin: 0;
+    width: 50%;
+}
+
+.store-items {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.remove {
+    background-color: rgb(246, 172, 234);
+    color: rgb(4, 1, 1);
+    margin: 0;
+    margin-right: 5px;
+    width: 39%;
+}
+
+.remove:hover {
+    background-color: #c677d8;
+}
+
+.cart-item-img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b623d7;
+    margin: 0;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+    margin: 0;
+}
+
+.cart-item {
+    width: 70%;
+}
+
+.card-price{
+    width: 70%;
+}
+
+.cart-quantity {
+    width: 70%;
+}
+
+.cart-quantity-input {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    margin-left: 5px;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid;
+}
+
+.cart-row:last-child .cart-column {
+    border-bottom: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-right: 0;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color:#500b45;
+    
+}
+
+.cart-total-price {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.btn-purchase {
+    
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.2em;
+    cursor: pointer;
+    color:#dd7bf3;
+    width: 39%;
+    border-radius: 0.3em;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    padding: 10px;
+    font-size: 1.5em;
+}
